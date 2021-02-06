@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header> 
+        <h1> Projcet Explorer</h1>
+        <h2>One Stop Database for Academic Projects</h2>
+
+    </header>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="search.html">Projects</a>
+        <a href=" login.html">Login</a>
+        <a href="register.html">Register</a>
+        <a href="createproject.html">Submit</a>
+    </nav> 
+
+    <main>
+
+        <h2>Search Project By</h2>
+
+        <form name="searchForm">
+            <div><input name="searchTerm" type="text" placeholder="Project Name, Authors, Abstract, Tags"/></div><br>
+
+            <div>Search By<br><select name="searchType">
+                <option value="Name">Name</option>
+                <option value="Abstract">Abstract</option>
+                <option value="Authors">Authors</option>
+                <option value="Tags">Tags</option>
+            </select></div><br>
+            <input type="submit" value="Search"/>
+        </form>
+        <h2>Search Result</h2>
+        <div>
+           <h4>Project 1</h4>
+           <ul>
+            <li>Name: Project 1</li>
+            <li> Description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                Sed blandit libero volutpat sed cras ornare arcu dui.</li>
+            <li>Program: Computer Science</li>
+            <li>Author: John Doe, Jane Doe</li>
+            <li>Tag: #Asphyxia,#GSW</li>
+            <li>Year: 2018</li>
+        </ul>
+        </div>
+    </main>
+</body>
+</html>
